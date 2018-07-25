@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website template</title>
+    <link href="./styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="container">
+            <a href="#" class="navbar-brand cap-text">website template</a>
+            <button class="menu-btn cap-text">Menu</button>
+        </div>
+        <div class="menu-items xyz">
+            <ul>
+                <li class="cap-text" style="grid-area:portfolio"><a href="#portfolio">portfolio</a></li>
+                <li class="cap-text" style="grid-area:about" ><a href="#about">about</a></li>
+                <li class="cap-text" style="grid-area:contact" ><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="showcase">
+            <img class="header-img" src="../images/programming-1.jpg" alt="header">
+            <h1 class="cap-text header-heading">john doe</h1>
+            <div>
+                <hr class="heading-rule">
+            </div>
+            <h3 class="header-subhead center-text">Web Developer - Software Engineer - User Experience Designer</h3>
+        </div>
+    </header>
+    <section id="portfolio" class="portfolio-section">
+        <h1 class="cap-text center-text dark-text">portfolio</h1>
+        <hr class="dark-text">
+        <ul class="cards-list">
+            <li class="portfolio-cards card-1 center-text">
+                <img src="../images/flower1.jpeg" />
+            </li>
+            <li class="portfolio-cards card-2 center-text">
+                <img src="../images/flower2.jpg" />
+            </li>
+            <li class="portfolio-cards card-3 center-text">
+                <img src="../images/flower3.jpeg" />
+            </li>
+            <li class="portfolio-cards card-4 center-text">
+                <img src="../images/flower4.jpeg" />
+            </li>
+            <li class="portfolio-cards card-5 center-text">
+                <img src="../images/flower5.jpeg" />
+            </li>
+            <li class="portfolio-cards card-6 center-text">
+                <img src="../images/flower6.jpg" />
+            </li>
+        </ul>
+    </section>
+    <div id="card-modal">
+        <span id="close-icon">&#10006;</span>
+        <div class="modal-content">
+            <h1 class="cap-text center-text" style="color:#2c3e50">project name</h1>
+            <div id="card-modal-image" class="center-text">
+            </div>
+            <p class="center-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet beatae, impedit 
+                doloremque recusandae saepe quis voluptate dolorem repellendus obcaecati 
+                exercitationem?
+            </p>
+            <button id="close-btn">Close Project</button>
+        </div>
+    </div>
+    <section id="about">
+        <h1 class="center-text cap-text">about</h1>
+        <div class="about-text">
+            <p class="center-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus quisquam repellat 
+                iure, quo quos possimus distinctio nostrum, rerum libero accusamus autem architecto, 
+                aliquam asperiores est eius laboriosam quia provident fugit nesciunt? Accusantium 
+                ex iste aliquid ipsam dignissimos quisquam optio nostrum dolore magni! Aspernatur 
+                sint id nobis officiis ut harum accusamus doloremque vero corporis consequatur! In 
+                maxime reprehenderit quas porro. Facilis odio animi ut qui quidem libero veniam 
+                repellat. Aperiam molestias sed cumque eum vitae perspiciatis tempora accusamus ut 
+                culpa similique. Laboriosam itaque impedit ipsum accusantium sit, veritatis cum nemo 
+                ea nesciunt consectetur dignissimos laborum perspiciatis porro aliquid iusto odit fuga!
+            </p>
+        </div>
+        <button id="download-btn">Lorem ipsum dolor</button>
+    </section>
+    <section id="contact">
+        <h1 class="cap-text center-text dark-text">contact me</h1>
+        <form class="contact-form">
+            <label for="name" >Name</label>
+            <input type="text" placeholder="Name" id="name" class="text-box">
+            <label for="email" >Email address</label>
+            <input type="text" placeholder="Email Address" id="email" class="text-box">
+            <label for="phone" >Phone Number</label>
+            <input type="text" placeholder="Phone" id="phone" class="text-box">
+            <label for="message" >Message</label>
+            <input type="text" placeholder="Message" id="message" class="text-box">
+            <button class="submit-btn cap-text">Submit</button>
+        </form>
+    </section>
+    <footer id="footer">
+        <div class="address">
+            <h1 class="cap-text center-text">location</h1>
+            <p>
+                Lorem ipsum dolor sit.<br>Lorem, ipsum.
+            </p>
+        </div>
+        <div class="web">
+            <h1 class="cap-text center-text" style="white-space:nowrap;">Lorem, ipsum lorem</h1>
+            <p class="circle"></p>
+            <p class="circle"></p>
+            <p class="circle"></p>
+            <p class="circle"></p>
+            <p class="circle"></p>
+        </div>
+        <div class="extra">
+            <h1 class="cap-text center-text" style="white-space:nowrap;">Lorem, ipsum.</h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, corporis?
+            </p>
+        </div>
+    </footer>
+    
+    <div class="copyright">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, obcaecati
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
